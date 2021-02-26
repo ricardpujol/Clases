@@ -1,9 +1,37 @@
 package clases;
 
+import java.util.Scanner;
+
 public class Clase5 {
     public static void main(String[] args) {
-        String mensaje;
-        bucle1:
+
+        Scanner escaner =new Scanner(System.in);
+
+        Integer[] miArray;
+
+        miArray = new Integer[4];
+        miArray[0]=45;
+        miArray[1]=100;
+        miArray[2]=987;
+        miArray[3]=1364;
+
+
+
+        /*for (Integer num1:miArray){
+            System.out.println("El valor del elemento es: " + num1);
+        }*/
+
+        /*for (int i = 0; i < miArray.length ; i++) {
+            System.out.println("Introduce un entero");
+            miArray[i] = escaner.nextInt();
+        }
+
+        for (int i = 0; i < miArray.length ; i++) {
+            System.out.println(miArray[i]);
+        }*/
+
+
+        /*bucle1:
         for (int k = 1; k < 5; k++) {
             bucle2:
             for (int l = 1; l < 10; l++) {
@@ -18,7 +46,7 @@ public class Clase5 {
             }
             System.out.println("fuera del l");
         }
-        System.out.println("fuera de k");
+        System.out.println("fuera de k");*/
 
 
         /*for (int i = 0; i < 4; i++) {
